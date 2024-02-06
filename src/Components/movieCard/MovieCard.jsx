@@ -21,7 +21,7 @@ const MovieCard = ({ data, fromSearch, mediaType }) => {
       onClick={() => navigate(`/${data.media_type || mediaType}/${data.id}`)}
     >
       <div className="posterBlock">
-        <Img className="posterImg" src={posterUrl} />
+         src={posterUrl}
         {!fromSearch && (
           <React.Fragment>
             <CircleRating rating={data.vote_average.toFixed(1)} />
