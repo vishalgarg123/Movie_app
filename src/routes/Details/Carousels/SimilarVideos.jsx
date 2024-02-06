@@ -1,6 +1,6 @@
 import React from "react";
 
-import Carousel from "../../../components/carousel/Carousel";
+import Carousel from "../../../Components/Carousel/Carousel";
 import useFetch from "../../../Hooks/useFetch";
 
 const SimilarVideos = ({ mediaType, id }) => {

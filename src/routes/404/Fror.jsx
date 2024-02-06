@@ -1,11 +1,18 @@
 import React from "react";
-import styles from "./Fror.module.scss";
-const Fror = () => {
-  return (
-    <div>
-      <h1>404</h1>
-    </div>
-  );
+
+import "./style.scss";
+
+import ContentWrapper from "../../Components/ContentWrapper/ContentWrapper";
+
+const PageNotFound = () => {
+    return (
+        <div className="pageNotFound">
+            <ContentWrapper>
+                <span className="bigText">404</span>
+                <span className="smallText">Page not found!</span>
+            </ContentWrapper>
+        </div>
+    );
 };
 
-export default Fror;
+export default PageNotFound;
